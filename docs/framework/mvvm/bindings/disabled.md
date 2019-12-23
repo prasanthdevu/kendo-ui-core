@@ -11,7 +11,7 @@ The Kendo UI Disabled (`disabled`) binding disables the target DOM element or wi
 
 If the View-Model value is `false`, the target DOM element or widget is enabled.
 
-The `disabled` binding supports only input HTML elements&mdash;`input`, `select`, and `textarea`. When an `input` element is disabled, the end user cannot change its value, that is, type in text or choose a different option.
+The `disabled` binding supports only input HTML elements&mdash;`input`, `select`, `button` and `textarea`. When an `input` element is disabled, the end user cannot change its value, that is, type in text or choose a different option.
 
 Non-Boolean values, such as `0`, `null`, `undefined` and `""`, are treated as `false` by the `disabled` binding. All other values are treated as `true`.
 
